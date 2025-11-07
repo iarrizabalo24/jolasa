@@ -9,7 +9,7 @@ class OdooService {
 
   // Configuración de Odoo (¡Nunca hardcodear credenciales en producción!)
   // En un proyecto real, esto estaría en un formulario de login.
-  final String _serverUrl = 'https://localhost';
+  final String _serverUrl = 'http://10.33.28.98:8069/odoo';
   final String _dbName = 'izarraitz';
   final String _username = 'odoo'; // o el usuario que sea
   final String _password = 'odoo'; // ¡Mala práctica! Solo para pruebas.
